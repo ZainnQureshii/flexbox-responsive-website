@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="styls.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="brand">Code<span>Sensei</span></div>
+    <ul class="topnav" id="nav-toggle">
+      <li class="dropdownLink"><a onclick="toggleDropdown()" href="#">&#9776;</a></li>
+      <li><a class="nav-link" href="#">Home</a></li>
+      <li><a class="nav-link" href="#">Product</a></li>
+      <li><a class="nav-link" href="#">About Us</a></li>
+      <li><a class="nav-link" href="javascript:void(0)">Contact</a></li>
+
+    </ul>
+  </nav>
+
+  <header class="sectionImg">
+    <div class="headershot-wrapper">
+      <img class="headshot" src="assets/hired%20-%20Copy.jpg" alt="">
+      <h1>Mark Manson</h1>
+    </div>
+  </header>
+
+  <section class="services">
+    <div class="container">
+      <div class="media-object">
+        <div class="icon-left">
+          <img class="icon" src="assets/graph_lines.svg" alt="graph Chart">
+        </div>
+        <div class="blurb-wrapper-right">
+          <h3 class="blurb-header">Scalable Code</h3>
+          <div class="blurb-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+      <div class="media-object">
+        <div class="icon-right">
+          <img class="icon" src="assets/pie_chart.svg" alt="pie Chart">
+        </div>
+        <div class="blurb-wrapper-left">
+          <h3 class="blurb-header">The Other Cool Attribute</h3>
+          <div class="blurb-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+      <div class="media-object">
+        <div class="icon-left">
+          <img class="icon" src="assets/assistant_icon.svg" alt="assistant_icon.svg">
+        </div>
+        <div class="blurb-wrapper-right">
+          <h3 class="blurb-header">6 months of Support</h3>
+          <div class="blurb-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="quote-btn-wrapper">
+      <button class="quote-btn">Get A Quote</button>
+    </div>
+  </section>
+
+  <section class="portfilio">
+    <div class="container">
+      <div class="section-header">
+        <h1 class="header">Previous Works</h1>
+      </div>
+      <div class="portfolio-wrapper">
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h3>Project</h3>
+          <div class="portfolio-text ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h3>Project</h3>
+          <div class="portfolio-text ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h3>Project</h3>
+          <div class="portfolio-text ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h3>Project</h3>
+          <div class="portfolio-text ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h3>Project</h3>
+          <div class="portfolio-text ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h3>Project</h3>
+          <div class="portfolio-text ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h3>Project</h3>
+          <div class="portfolio-text ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h3>Project</h3>
+          <div class="portfolio-text ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-container">
+    <div class="container">
+      <div class="section-header">
+        <h1>Drop us a Line</h1>
+      </div>
+      <form>
+        <label for="email">Email</label>
+        <div class="form-group">
+          <input class="form-control" type="email" id="email">
+        </div>
+        <label for="name">Name</label>
+        <div class="form-group">
+          <input class="form-control" type="text" id="name">
+        </div>
+        <label for="message">Mesage</label>
+        <div class="form-group">
+        <textarea class="form-control" name="" id="message" rows="6"></textarea>
+        </div>
+        <div class="submit-btn-wrapper">
+          <button class="quote-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
